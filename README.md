@@ -1,4 +1,4 @@
-# pbVector Docker Example
+# pgVector Docker Example
 
 PostgreSQL と pgVector 拡張機能を使ったベクトル検索データベース環境の Docker セットアップ例です。
 
