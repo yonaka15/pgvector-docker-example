@@ -1,6 +1,6 @@
-# PGVector Docker Example
+# pbVector Docker Example
 
-PostgreSQL と pgvector 拡張機能を使ったベクトル検索データベース環境の Docker セットアップ例です。
+PostgreSQL と pgVector 拡張機能を使ったベクトル検索データベース環境の Docker セットアップ例です。
 
 ## 概要
 
@@ -8,7 +8,7 @@ PostgreSQL と pgvector 拡張機能を使ったベクトル検索データベ�
 
 主な構成要素:
 
-- PostgreSQL + pgvector 拡張（v0.7.2）
+- PostgreSQL + pgVector 拡張（v0.7.2）
 - Adminer（データベース管理ツール）
 - 環境設定用の変数
 - Docker ボリュームによるデータ永続化
@@ -43,7 +43,7 @@ PostgreSQL と pgvector 拡張機能を使ったベクトル検索データベ�
    docker-compose up -d
    ```
 
-## pgvector の使用方法
+## pgVector の使用方法
 
 ### データベースへの接続
 
